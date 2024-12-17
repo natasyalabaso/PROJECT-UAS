@@ -1,0 +1,64 @@
+ 
+
+        /* Konten Utama */
+        .content {
+            text-align: center;
+            margin: 30px auto;
+            width: 80%;
+        }
+
+        .content h2 {
+            color: #2e7d32;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+ 
+        /* Card Section */
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            margin: 100px auto;
+            width: 80%;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .card h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #2e7d32;
+        }
+        .card p {
+            font-size: 16px;
+            color: #555;
+        }
+        
+        /* Tombol */
+        .btn{
+            text-align: center;
+        }
+
+        .button {
+            padding: 10px 20px ;
+            background-color: #2e7d32;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        .button:hover {
+            background-color: #1b5e20;
+        }
